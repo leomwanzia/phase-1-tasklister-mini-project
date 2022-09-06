@@ -18,6 +18,12 @@
                           name="new-task-description"
                           placeholder="description"
                       />
+                      <select id="drop-down">
+                        <option value="" disabled selected hidden>Choose priority</option>
+                        <option value="high-priority">High priority</option>
+                        <option value="medium-priority">Medium priority</option>
+                        <option value="low-priority">Low priority</option>
+                      </select>
                       <input type="submit" value="Create New Task" />
                 </form>
 
@@ -26,5 +32,6 @@
                   <ul id="tasks"></ul>
                 </div>
             </div>
+            <script src="./src/index.js"></script>
       </body>
   </html>
